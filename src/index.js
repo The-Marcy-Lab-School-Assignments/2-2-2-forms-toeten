@@ -7,6 +7,15 @@ const handleSubmit = (event) => {
   const form = event.target
   debugger;
   const formValues = Object.fromEntries(new FormData(form));
+
+  form.reset();
 };
 
-document.querySelector('form').addEventListener('submit', handleSubmit)
+
+
+
+const main = () => {
+  document.querySelector('form').addEventListener('submit', handleSubmit)
+};
+
+main();
