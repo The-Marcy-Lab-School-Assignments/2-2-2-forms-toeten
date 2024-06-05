@@ -1,5 +1,5 @@
 /** GENERAL FEEDBACK:
- *
+ * Your code is super clean, great job! I also love that you are using debugger to debug your code!
  */
 
 const handleSubmit = (event) => {
@@ -19,7 +19,7 @@ const handleSubmit = (event) => {
 
 
 
-
+/** FEEDBACK: IS THIS A RUNNER FUNCTION!!!!! AHHHHH  */
 const main = () => {
   document.querySelector('form').addEventListener('submit', handleSubmit)
 };
